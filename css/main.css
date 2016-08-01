@@ -1,0 +1,35 @@
+.caja{
+	float: left;
+	border-right: 1px solid #EEEEEE ;
+	border-bottom: 1px solid #FFFFFF;
+	box-sizing: border-box;
+	width: 18%;
+	height: 360px;
+	margin-right: 10px;
+	background-color: #FBFBFB;
+	color: #848484;
+	text-align: center;
+	padding-top: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+h2{
+	font-family:"Indie+Flower", sans-serif;
+}
+h5{
+	font-family: "Titillium+Web:400italic" , sans-serif ;
+	color:#BBBBBB !important;
+}
+p{
+	font-family: "PT+Sans+Narrow", sans-serif;
+}
+.caja:hover {
+-webkit-transform:scale(1.2);
+transform:scale(1.2);
+background-color: white;
+color: #A7B9DA;
+}
+.caja {
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
